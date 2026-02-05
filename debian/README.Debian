@@ -1,0 +1,17 @@
+aiohttp-swagger for Debian
+==========================
+
+This package provides the aiohttp-swagger library for Debian/Ubuntu systems.
+
+aiohttp-swagger is a Swagger/OpenAPI documentation builder for aiohttp web
+servers. It allows you to automatically generate and serve API documentation
+from your aiohttp route handlers.
+
+The package includes both the legacy Swagger UI 2.x (swagger_ui/) and the
+newer Swagger UI 3.x (swagger_ui3/) interfaces, as well as template files
+for generating OpenAPI specifications.
+
+Usage examples can be found in the examples/ directory in the source package
+or online at: https://github.com/cr0hn/aiohttp-swagger
+
+ -- Vítězslav Dvořák <info@vitexsoftware.cz>  Thu, 05 Feb 2026 12:17:04 +0100

@@ -1,0 +1,233 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: aiohttp-swagger
+Upstream-Contact: Daniel Garcia (cr0hn) <cr0hn@cr0hn.com>
+Source: https://github.com/cr0hn/aiohttp-swagger
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .github/FUNDING.yml
+           .github/workflows/upload-to-pypi.yml
+           .gitignore
+           CHANGELOG
+           MANIFEST.in
+           Makefile
+           README.md
+           aiohttp_swagger/__init__.py
+           aiohttp_swagger/helpers/__init__.py
+           aiohttp_swagger/helpers/builders.py
+           aiohttp_swagger/helpers/decorators.py
+           aiohttp_swagger/swagger_ui/css/print.css
+           aiohttp_swagger/swagger_ui/css/reset.css
+           aiohttp_swagger/swagger_ui/css/screen.css
+           aiohttp_swagger/swagger_ui/css/style.css
+           aiohttp_swagger/swagger_ui/css/typography.css
+           aiohttp_swagger/swagger_ui/fonts/DroidSans-Bold.ttf
+           aiohttp_swagger/swagger_ui/fonts/DroidSans.ttf
+           aiohttp_swagger/swagger_ui/images/collapse.gif
+           aiohttp_swagger/swagger_ui/images/expand.gif
+           aiohttp_swagger/swagger_ui/images/explorer_icons.png
+           aiohttp_swagger/swagger_ui/images/favicon-16x16.png
+           aiohttp_swagger/swagger_ui/images/favicon-32x32.png
+           aiohttp_swagger/swagger_ui/images/favicon.ico
+           aiohttp_swagger/swagger_ui/images/logo_small.png
+           aiohttp_swagger/swagger_ui/images/pet_store_api.png
+           aiohttp_swagger/swagger_ui/images/throbber.gif
+           aiohttp_swagger/swagger_ui/images/wordnik_api.png
+           aiohttp_swagger/swagger_ui/lang/ca.js
+           aiohttp_swagger/swagger_ui/lang/en.js
+           aiohttp_swagger/swagger_ui/lang/es.js
+           aiohttp_swagger/swagger_ui/lang/fr.js
+           aiohttp_swagger/swagger_ui/lang/geo.js
+           aiohttp_swagger/swagger_ui/lang/it.js
+           aiohttp_swagger/swagger_ui/lang/ja.js
+           aiohttp_swagger/swagger_ui/lang/ko-kr.js
+           aiohttp_swagger/swagger_ui/lang/pl.js
+           aiohttp_swagger/swagger_ui/lang/pt.js
+           aiohttp_swagger/swagger_ui/lang/ru.js
+           aiohttp_swagger/swagger_ui/lang/tr.js
+           aiohttp_swagger/swagger_ui/lang/zh-cn.js
+           aiohttp_swagger/swagger_ui/lib/backbone-min.js
+           aiohttp_swagger/swagger_ui/lib/es5-shim.js
+           aiohttp_swagger/swagger_ui/lib/highlight.9.1.0.pack.js
+           aiohttp_swagger/swagger_ui/lib/highlight.9.1.0.pack_extended.js
+           aiohttp_swagger/swagger_ui/lib/jquery-1.8.0.min.js
+           aiohttp_swagger/swagger_ui/lib/jquery.slideto.min.js
+           aiohttp_swagger/swagger_ui/lib/jquery.wiggle.min.js
+           aiohttp_swagger/swagger_ui/lib/js-yaml.min.js
+           aiohttp_swagger/swagger_ui/lib/jsoneditor.min.js
+           aiohttp_swagger/swagger_ui/lib/lodash.min.js
+           aiohttp_swagger/swagger_ui/lib/object-assign-pollyfill.js
+           aiohttp_swagger/swagger_ui/lib/sanitize-html.min.js
+           aiohttp_swagger/swagger_ui/lib/swagger-oauth.js
+           aiohttp_swagger/swagger_ui3/favicon-16x16.png
+           aiohttp_swagger/swagger_ui3/favicon-32x32.png
+           aiohttp_swagger/swagger_ui3/swagger-ui-bundle.js
+           aiohttp_swagger/swagger_ui3/swagger-ui-standalone-preset.js
+           aiohttp_swagger/swagger_ui3/swagger-ui.css
+           aiohttp_swagger/swagger_ui3/swagger-ui.css.map
+           aiohttp_swagger/swagger_ui3/swagger-ui.js
+           aiohttp_swagger/templates/openapi.yaml
+           aiohttp_swagger/templates/swagger.yaml
+           doc/Makefile
+           doc/images/logo.png
+           doc/images/logo.xcf
+           doc/source/_static/logo.png
+           doc/source/_static/swagger_custom_params.jpg
+           doc/source/_static/swagger_ping.jpg
+           doc/source/_static/swagger_title.jpg
+           doc/source/customizing.rst
+           doc/source/faq.rst
+           doc/source/favicon.ico
+           doc/source/index.rst
+           doc/source/installation.rst
+           doc/source/quick_start.rst
+           examples/example_01.py
+           examples/example_02.py
+           examples/example_03.py
+           examples/example_04.py
+           examples/example_05.py
+           examples/example_swagger.yaml
+           examples/example_swagger_partial.yaml
+           examples/pet_store.json
+           examples/swagger_orig.yaml
+           requirements-dev.txt
+           requirements-doc.txt
+           requirements-performance.txt
+           requirements.txt
+           tests/__init__.py
+           tests/conftest.py
+           tests/data/example_data_definitions.json
+           tests/data/example_swagger.yaml
+           tests/data/partial_swagger.yaml
+           tests/test_openapi.py
+           tests/test_swagger.py
+           tox.ini
+Copyright: 2016-2023 Daniel Garcia (cr0hn) <cr0hn@cr0hn.com>
+License:   BSD-3-Clause
+
+Files:     aiohttp_swagger/swagger_ui/lib/jquery.ba-bbq.min.js
+           aiohttp_swagger/swagger_ui/lib/marked.js
+Copyright: 2010 "Cowboy" Ben Alman Dual licensed under the MIT and GPL licenses. http://benalman.com/about/license/
+           2011-2014 Christopher Jeffrey. (MIT Licensed) https://github.com/chjj/marked
+License:   __NO_LICENSE__
+
+Files:     aiohttp_swagger/swagger_ui/lib/handlebars-4.0.5.js
+Copyright: 2011-2015 Yehuda Katz
+License:   Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ THE SOFTWARE.
+ .
+ @license
+
+Files:     doc/source/conf.py
+Copyright: __NO_COPYRIGHT__ in: doc/source/conf.py
+License:   __UNKNOWN__
+ # The version info for the project you're documenting, acts as replacement for
+ # |version| and |release|, also used in various other places throughout the
+ # built documents.
+ #
+ .
+ # This code was taken from Flask conf: https://github.com/pallets/flask/blob/master/docs/conf.py
+ # try:
+
+Files:     aiohttp_swagger/swagger_ui/lang/translator.js
+Copyright: __NO_COPYRIGHT__ in: aiohttp_swagger/swagger_ui/lang/translator.js
+License:   __UNKNOWN__
+ To enable translation you should include one of language-files in your index.html
+
+Files:     setup.py
+Copyright: __NO_COPYRIGHT__ in: setup.py
+License:   BSD-3-Clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1. Redistributions of source code must retain the above copyright notice,
+ this list of conditions and the following disclaimer.
+ .
+ 2. Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ 3. Neither the name of the copyright holder nor the names of its
+ contributors may be used to endorse or promote products derived from this
+ software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+ .
+ On Debian systems, the complete text of the BSD 3-clause "New" or "Revised"
+ License can be found in `/usr/share/common-licenses/BSD'.
+
+#----------------------------------------------------------------------------
+# xml and html files (skipped):
+#         aiohttp_swagger/swagger_ui/o2c.html
+#         aiohttp_swagger/swagger_ui/index.html
+#         aiohttp_swagger/swagger_ui3/oauth2-redirect.html
+#         aiohttp_swagger/swagger_ui3/index.html
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         aiohttp_swagger/swagger_ui/swagger-ui.js
+#         aiohttp_swagger/swagger_ui3/swagger-ui-bundle.js.map
+#         aiohttp_swagger/swagger_ui3/swagger-ui.js.map
+#         aiohttp_swagger/swagger_ui3/swagger-ui-standalone-preset.js.map
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ Copyright (c) Daniel Garcia (cr0hn)
+ .
+ Project home: https://github.com/cr0hn/aiohttp-swagger
+ Project contact: cr0hn[at]cr0hn.com
+ .
+ Redistribution and use in source and binary forms, with or without modification,
+ are permitted provided that the following conditions are met:
+ .
+     1. Redistributions of source code must retain the above copyright notice,
+        this list of conditions and the following disclaimer.
+ .
+     2. Redistributions in binary form must reproduce the above copyright
+        notice, this list of conditions and the following disclaimer in the
+        documentation and/or other materials provided with the distribution.
+ .
+     3. Neither the name of Daniel Garcia (cr0hn) nor the names of its contributors may be used
+        to endorse or promote products derived from this software without
+        specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+ WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+ DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+ (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+ LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.

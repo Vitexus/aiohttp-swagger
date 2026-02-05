@@ -132,3 +132,13 @@ ENV/
 
 # Pycharm
 .idea/
+.pybuild/
+
+debian/debhelper-build-stamp
+debian/python3-aiohttp-swagger.postinst.debhelper
+debian/python3-aiohttp-swagger.prerm.debhelper
+debian/python3-aiohttp-swagger.substvars
+debian/.debhelper/
+debian/python3-aiohttp-swagger/
+
+debian/files

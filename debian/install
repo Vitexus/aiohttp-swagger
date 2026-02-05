@@ -1,0 +1,3 @@
+
+# Package contents are handled by pybuild and dh_python3
+# Static assets and templates are included via MANIFEST.in
